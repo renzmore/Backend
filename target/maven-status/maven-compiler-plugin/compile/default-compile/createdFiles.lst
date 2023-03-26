@@ -33,6 +33,7 @@ com\portfolio\renzmore\Dto\dtoHys.class
 com\portfolio\renzmore\Entity\Persona.class
 com\portfolio\renzmore\Dto\dtoExperiencia.class
 com\portfolio\renzmore\Security\jwt\JwtEntryPoint.class
+com\portfolio\renzmore\WebConfig.class
 com\portfolio\renzmore\Repository\REducacion.class
 com\portfolio\renzmore\Repository\Rhys.class
 com\portfolio\renzmore\Service\ImpPersonaService.class

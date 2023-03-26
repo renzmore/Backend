@@ -6,6 +6,7 @@ C:\ArgentinaPrograma\Backend\src\main\java\com\portfolio\renzmore\Controller\CHy
 C:\ArgentinaPrograma\Backend\src\main\java\com\portfolio\renzmore\Security\Enums\RolNombre.java
 C:\ArgentinaPrograma\Backend\src\main\java\com\portfolio\renzmore\Security\jwt\JwtEntryPoint.java
 C:\ArgentinaPrograma\Backend\src\main\java\com\portfolio\renzmore\Security\Repository\iUsuarioRepository.java
+C:\ArgentinaPrograma\Backend\src\main\java\com\portfolio\renzmore\WebConfig.java
 C:\ArgentinaPrograma\Backend\src\main\java\com\portfolio\renzmore\Security\Entity\Usuario.java
 C:\ArgentinaPrograma\Backend\src\main\java\com\portfolio\renzmore\Security\Service\RolService.java
 C:\ArgentinaPrograma\Backend\src\main\java\com\portfolio\renzmore\Security\Service\UsuarioService.java
