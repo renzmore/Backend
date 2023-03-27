@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/personas")
-@CrossOrigin(origins = {"https://frontendfirebase-1ad48.web.app", "http://localhost:4200"})
+@CrossOrigin(origins = "https://frontendfirebase-1ad48.web.app")
 public class PersonaController {
     @Autowired
     ImpPersonaService personaService;
