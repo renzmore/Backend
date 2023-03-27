@@ -65,16 +65,6 @@ public class PersonaController {
         return new ResponseEntity(new Mensaje("Persona creada"), HttpStatus.OK);
     }
 
-    @DeleteMapping("/borrar/{id}")
-    public ResponseEntity<?> delete(@PathVariable("id") int id) {
-        if (!personaService.existsById(id)) {
-            return new ResponseEntity(new Mensaje("No existe el ID"), HttpStatus.NOT_FOUND);
-        }
-
-        personaService.delete(id);
-
-        return new ResponseEntity(new Mensaje("Persona eliminada"), HttpStatus.OK);
-    }
 
     @PutMapping("/update/{id}")
     public ResponseEntity<?> update(@PathVariable("id") int id, @RequestBody dtoPersona dtopersona) {
